@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles_base.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h2 class="title">CRUD Vanilla Js</h2>
+
+    <form action="" id="main-form">
+      <div class="userInfoInputs">
+        <div class="userInfoField">
+          <label for="nombre">Nombre: </label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escribe tu nombre"
+            required
+          />
+        </div>
+        <div class="userInfoField">
+          <label for="job">Ocupación: </label>
+          <input
+            type="text"
+            name="job"
+            id="job"
+            placeholder="Escribe tu ocupación"
+            required
+          />
+        </div>
+        <div class="userInfoField">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Escribe tu email"
+          />
+        </div>
+      </div>
+
+      <input type="submit" value="Guardar" />
+    </form>
+
+    <div id="users-container" class="userList flex-row-start width-100percent flex-wrap">
+      <!-- <div class="card-user border-radious-10px bg-white padding-xs flex-column-center border-1px-solid-black margin-xs">
+        <img src="./Assets/Img/hombre.png" alt="" class="user-img border-radious-5px">
+        <div class="card-user-container width-100percent flex-column-center">
+          <div class="card-user-info-container flex-column-center width-100percent margin-top-xs">
+            <p class="card-user-name font-weight-bold font-size-sm">Alfonso</p>
+            <p class="card-user-occupation font-weight-bold font-size-xs margin-top-xs">Frontend Developer</p>
+            <p class="card-user-email font-weight-light font-size-xs">alfmar100391@icloud.com</p>
+          </div>
+          <img src="./Assets/Img/icons8-México.png" alt="" class="card-user-country margin-top-xs">
+          <div class="card-user-social-media width-100percent flex-row-start flex-wrap margin-top-xs">
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Facebook.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Instagram.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Github.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Youtube.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-user border-radious-10px bg-white padding-xs flex-column-center border-1px-solid-black">
+        <img src="./Assets/Img/hombre.png" alt="" class="user-img border-radious-5px">
+        <div class="card-user-container width-100percent flex-column-center ">
+          <div class="card-user-info-container flex-column-center width-100percent margin-top-xs">
+            <p class="card-user-name font-weight-bold font-size-sm">Alfonso Martínez</p>
+            <p class="card-user-email font-weight-light font-size-xs">alfmar100391@icloud.com</p>
+          </div>
+          <img src="./Assets/Img/icons8-Chile.png" alt="" class="card-user-country margin-top-xs">
+          <div class="card-user-social-media width-100percent flex-row-start flex-wrap margin-top-xs">
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Facebook.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Github.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+            <div class="card-user-social-media-item flex-row-start margin-xs">
+              <img src="./Assets/Img/icons8-Youtube.png" alt="" class="social-media-logo">
+              <p class="card-user-social-media-description font-weight-light font-size-xs">/Alfonso</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="main.js"></script>
+    <script src="./tarea.js"></script>
+  </body>
+</html>
